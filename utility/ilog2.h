@@ -10,7 +10,7 @@
 namespace HL {
 
   /// Quickly calculate the CEILING of the log (base 2) of the argument.
-#if defined(_WIN32)
+#if defined(_MSC_VER)
   static inline unsigned int ilog2 (size_t sz)
   {
     DWORD index;

@@ -27,7 +27,7 @@
 #ifndef HL_POSIXLOCK_H
 #define HL_POSIXLOCK_H
 
-#if !defined(_WIN32)
+#if !defined(_MSC_VER)
 
 #include <pthread.h>
 

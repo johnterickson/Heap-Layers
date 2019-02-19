@@ -72,7 +72,7 @@ extern "C" int _thr_self(void);
 #include <sys/mpctl.h>
 #endif
 
-#if defined(_WIN32)
+#if defined(_MSC_VER)
 extern __declspec(thread) int localThreadId;
 #endif
 
